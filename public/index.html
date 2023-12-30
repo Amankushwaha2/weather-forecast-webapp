@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Weather App created using React and OpenWeatherMap's Weather API"
+    />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>React | Weather App</title>
+
+    <style>
+      body {
+        margin: 0; /* Remove default margin to position the footer relative to the viewport */
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      #root {
+        flex: 1; /* Allow the root container to take the remaining vertical space */
+      }
+
+      /* Styling for the footer */
+      footer {
+        position: fixed;
+        bottom: 10px; /* Adjust as needed */
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Copyright Footer -->
+    <footer>
+      <p>&copy; <span id="currentYear"></span> Made with 💗 by Aman</p>
+    </footer>
+
+    <script>
+      // Dynamically set the current year
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

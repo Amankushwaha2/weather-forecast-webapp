@@ -1,0 +1,24 @@
+.loading {
+  background-color: #ffffff;
+  background-image: url('../images/loading.gif');
+  background-size: 25px 25px;
+  background-position: 97% center;
+  background-repeat: no-repeat;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .loading {
+    background-size: 15px 15px; /* Adjust the size based on your design */
+    background-position: 90% center; /* Adjust the position based on your design */
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .city-input {
+    width: 90%; /* Adjusted width for better mobile view */
+    padding: 10px; /* Adjusted padding for better mobile view */
+    font-size: 16px; /* Adjusted font size for better mobile view */
+  }
+}
