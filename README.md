@@ -1,4 +1,5 @@
-![Screenshot](https://github.com/Amankushwaha2/weather-forecaster-webapp/assets/108605279/2a5f0f22-a8ec-4d9f-996b-e5eba146ce22)
+![Screenshot](https://github.com/Amankushwaha2/weather-forecast-webapp/assets/108605279/57cc8095-265b-4cb2-885c-46a1a44f0a85)
+
 
 # Weather Forecast Web App
 
